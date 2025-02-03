@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="">
+        <div class="flex flex-row items-center justify-between bg-black h-[12vh] px-[3vw] w-[100%]">
+            <img src="./public/image/nav-logo.png" alt="nav-logo" class="h-[10vh] w-[5vw] rounded-full">
+            <div class="flex flex-row text-white gap-[3vw]">
+                <a href="home.html" class="underline underline-offset-8 hover:text-[#c7762a] font-bold">HOME</a>
+                <a href="contact.html" class="underline underline-offset-8 hover:text-[#c7762a] font-bold">CONTACT US</a>
+                <a href="about.html" class="underline underline-offset-8 hover:text-[#c7762a] font-bold">ABOUT US</a>
+            </div>
+        </div>
+        <div class="bg-[url(/public/image/hero-bg.jpg)] h-[130vh] w-[100%] bg-cover place-items-center relative z-10">
+            <p class="pt-[50vh] text-white text-2xl">TRAVEL AGENCY</p>
+            <p class="italic text-white text-5xl">wanderust</p>
+            <p class="py-[30px] text-white text-2xl sm:text-6xl font-bold">Wonderful tours </p>
+            <p class="pb-[30px] text-white text-sm sm:text-2xl">Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+            <button class="text-white font-bold py-[10px] px-[35px] border-2 rounded-[3vh] hover:bg-white hover:text-black" onclick="page_open" id="pagebtn">READ MORE</button>
+        </div>
+        <div class="bg-[#333231] sm:px-[15vw] px-[10vw]">
+            <div class="flex flex-col w-[100%] gap-[2vw] mt-[-5vh] sm:flex-row">
+                <div class="border-[4px] rounded-[20px] border-[#c7762a] h-[35vh] w-[100%] text-center p-[15px] bg-[#0a0807] text-white relative z-20">
+                    <i class="fa fa-briefcase text-white stroke-[#c7762a] text-3xl" aria-hidden="true"></i>
+                    <p class="text-2xl font-bold py-[20px]">Traveller Tours</p>
+                    <p class="text-xl">Sample text. Click to select the text box.</p>
+                </div>
+                <div class="border-[4px] rounded-[20px] border-[#c7762a] h-[35vh] w-[100%] text-center p-[15px] bg-[#0a0807] text-white relative z-20">
+                    <i class="fa-solid fa-earth-americas stroke-[#c7762a] text-3xl"></i>
+                    <p class="text-2xl font-bold py-[20px]">Explore The World</p>
+                    <p class="text-xl">Sample text. Click to select the text box.</p>
+                </div>
+                <div class="border-[4px] rounded-[20px] border-[#c7762a] h-[35vh] w-[100%] text-center p-[15px] bg-[#0a0807] text-white relative z-20">
+                    <i class="fa-solid fa-house stroke-[#c7762a] text-3xl"></i>
+                    <p class="text-2xl font-bold py-[20px]">Adventure Vacations</p>
+                    <p class="text-xl">Sample text. Click to select the text box.</p>
+                </div>
+                <div class="border-[4px] rounded-[20px] border-[#c7762a] h-[35vh] w-[100%] text-center p-[15px] bg-[#0a0807] text-white relative z-20">
+                    <i class="fa-sharp fa-solid fa-hotel stroke-[#c7762a] text-3xl"></i>
+                    <p class="text-2xl font-bold py-[20px]">Luxurious Hotels</p>
+                    <p class="text-xl">Sample text. Click to select the text box.</p>
+                </div>
+            </div>
+            <div class="text-center py-[5vh] text-white">
+                <h2 class="text-4xl font-bold py-[15px]">Backpacking Trips</h2>
+                <p class="text-xl py-[15px]">Duis aute irure dolor in reprehender it in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                <button class="text-white font-bold py-[10px] px-[35px] border-2 rounded-[3vh] my-[20px] hover:bg-white hover:text-black" onclick="page_open" id="pagebtn">READ MORE</button>
+            </div>
+            <div class="py-[10vh]">
+                <p class="text-white font-bold text-5xl">Small group travel that's <br> good all over</p>
+                <div id="about-card" class="flex sm:flex-row flex-col w-[100%] mx-[70px] my-[40px]">
+                    <div class="w-[100%] px-[25px] py-[80px] bg-white rounded-[3vh] sm:me-[15vw]">
+                        <p class="text-2xl font-awesome">Sit amet massa vitae tortor condimentum lacinia quis. Ornare arcu dui vivamus arcu felis bibendum ut.
+                            Consectetur adipiscing elit duis tristique sollicitudin. Volutpat lacus laoreet non curabitur. Magna fringilla urna porttitor rhoncus.
+                            Ultricies leo integer malesuada nunc vel risus commodo viverra. Ipsum a arcu cursus vitae congue.
+                            Imperdiet dui accumsan sit amet nulla facilisi.
+                        </p>
+                        <button class=" hover:text-white text-[#c7762a] font-bold py-[15px] px-[40px] border-2 rounded-[4vh] mt-[40px] ms-[20px] hover:bg-[#c7762a] border-[#c7762a]" onclick="page_open" id="pagebtn">READ MORE</button>
+                    </div>
+                    <div class="w-[100%] pt-[10vh]">
+                        <img src="./public/image/full-shot-travel.avif" id="full-shot-travel" alt="" class="rounded-full w-[28vw] h-[28vw] sm:ms-[-10vw]">
+                    </div>
+                </div>
+            </div>
+            <div class="text-white font-bold text-6xl px-[10vw] py-[5vh] text-center">
+                <P>Enjoy the perfect blend of adventure tours</P>
+            </div>
+            <div class="flex sm:flex-row flex-col gap-[20px] py-[10vh]">
+                <div class="px-[30px] py-[40px] w-[100%] bg-white rounded-3xl">
+                    <img src="./public/image/mount-everest.jpeg" alt="" class="rounded-full h-[10vw] w-[10vw] mb-[20px]">
+                    <P class="text-xl py-[15px]">MOUNTAINS</P>
+                    <p class="text-lg leading-8 text-[#858383] py-[15px]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <a href="#" class="underline underline-offset-8 py-[10px]">MORE</a>
+                </div>
+                <div class="px-[30px] py-[40px] w-[100%] bg-white rounded-3xl">
+                    <img src="./public/image/waterfall.jpeg" alt="" class="rounded-full h-[10vw] w-[10vw] mb-[20px]">
+                    <P class="text-xl py-[15px]">WATERFALLS</P>
+                    <p class="text-lg leading-8 text-[#858383] py-[15px]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <a href="#" class="underline underline-offset-8 py-[10px]">MORE</a>
+                </div>
+                <div class="px-[30px] py-[40px] w-[100%] bg-white rounded-3xl">
+                    <img src="./public/image/highway.jpeg" alt="" class="rounded-full h-[10vw] w-[10vw] mb-[30px]">
+                    <P class="text-xl py-[15px]">ROAD TRAVEL</P>
+                    <p class="text-lg leading-8 text-[#858383] py-[15px]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <a href="#" class="underline underline-offset-8 py-[10px]">MORE</a>
+                </div>
+                <div class=""></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
