@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -18,22 +19,22 @@
                 <a href="about.html" class="underline underline-offset-8 hover:text-[#c7762a] font-bold">ABOUT US</a>
             </div>
         </div>
-        <div class="bg-[url(/public/image/hero-bg.jpg)] h-[130vh] w-[100%] bg-cover place-items-center relative z-10">
+        <div class="bgHero bg-[url(/public/image/hero-bg.jpg)] h-[130vh] w-[100%] bg-cover place-items-center relative z-10 ">
             <p class="pt-[50vh] text-white text-2xl">TRAVEL AGENCY</p>
             <p class="italic text-white text-5xl">wanderust</p>
             <p class="py-[30px] text-white text-2xl sm:text-6xl font-bold">Wonderful tours </p>
             <p class="pb-[30px] text-white text-sm sm:text-2xl">Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
             <button class="text-white font-bold py-[10px] px-[35px] border-2 rounded-[3vh] hover:bg-white hover:text-black" onclick="page_open" id="pagebtn">READ MORE</button>
         </div>
-        <div class="bg-[#333231] sm:px-[15vw] md:px-[12vw] px-[8vw]">
-            <div class="flex flex-col w-[100%] gap-[2vw] mt-[-5vh] sm:flex-row">
+        <div class="bg-[#333231] sm:px-[15vw] md:px-[12vw] px-[8vw] z-10">
+            <div class="cards flex flex-col w-[100%] gap-[2vw] mt-[-5vh] sm:flex-row">
                 <div class="border-[4px] rounded-[20px] border-[#c7762a] h-[35vh] w-[100%] text-center p-[15px] bg-[#0a0807] text-white relative z-20">
                     <i class="fa fa-briefcase text-white stroke-[#c7762a] text-3xl" aria-hidden="true"></i>
                     <p class="text-2xl font-bold py-[20px]">Traveller Tours</p>
                     <p class="text-xl">Sample text. Click to select the text box.</p>
                 </div>
                 <div class="border-[4px] rounded-[20px] border-[#c7762a] h-[35vh] w-[100%] text-center p-[15px] bg-[#0a0807] text-white relative z-20">
-                    <i class="fa-solid fa-earth-americas stroke-[#c7762a] text-3xl"></i>
+                    <i class="fa-solid fa-earth-americas stroke-[#c7762a] text-3xl text-green-800"></i>
                     <p class="text-2xl font-bold py-[20px]">Explore The World</p>
                     <p class="text-xl">Sample text. Click to select the text box.</p>
                 </div>
@@ -172,4 +173,5 @@
     </div>
 </body>
 <script src="script.js"></script>
+<script src="gsap.js"></script>
 </html>
