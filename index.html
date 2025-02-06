@@ -8,6 +8,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
     <div class="">
@@ -20,7 +25,7 @@
             </div>
         </div>
         <div class="bgHero bg-[url(/public/image/hero-bg.jpg)] sm:h-[130vh] h-[100vh] w-[100%] bg-cover place-items-center relative z-10 ">
-            <p class="sm:pt-[40vh] md:pt-[50vh] pt-[20vh] text-white text-2xl">TRAVEL AGENCY</p>
+            <p class="sm:pt-[40vh] md:pt-[50vh] pvh] text-white text-2xl">TRAVEL AGENCY</p>
             <p class="italic text-white text-5xl">wanderust</p>
             <p class="py-[30px] text-white text-2xl sm:text-6xl font-bold">Wonderful tours </p>
             <p class="pb-[30px] text-white text-md sm:text-2xl px-[30px] text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
@@ -151,7 +156,7 @@
             </div>
         </div>
         <div class="bg-[url(/public/image/pexels.jpg)] sm:h-[110vh] h-[90vh] w-[100%] bg-cover relative sm:ps-[15vw] text-center px-[30px] pt-[25vw] rounded-md">
-            <div class="text-white  sm:w-[30vw] sm:pe-[30px]">
+            <div class="text-white  sm:w-[30vw] sm:pe-[30px] text-left">
                 <p class="sm:text-4xl text-2xl font-bold">Tours Nature <br> & Wildlife</p>
                 <p class="text-xl leading-8">Fly with who you want, stay wherever you want — now that's a dream holiday!</p>
                 <div class="d-flex py-[30px]">
@@ -171,39 +176,44 @@
             </div>
         </div>
         <!-- slide section -->
-        <div class="flex flex-row px-[8vw] gap-[15px] py-[4vh]">
-            <div class="h-[40vh] hover:scale-[0.95] duration-500">
-                <a href="https://youtu.be/5hdyi8svumQ?si=d0V59E16B3lCnee-">
-                    <img src="./public/image/jungle.jpg" alt="" class="rounded-2xl">
-                </a>
+         <div class="w-full flex md:flex-row flex-col gap-20">
+            <div class="flex flex-row gap-[15px] py-[4vh] px-[10vw] owl-carousel owl-theme">
+                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                    <p class="absolute text-white p-[10px] text-xl">Mount-everest</p>
+                    <a href="https://youtu.be/5hdyi8svumQ?si=d0V59E16B3lCnee-">
+                        <img src="./public/image/jungle.jpg" alt="" class="rounded-2xl">
+                    </a>
+                </div>
+                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                    <p class="absolute text-white p-[10px] text-xl">Mayadevi Temple</p>
+                    <a href="https://youtu.be/lkluFMRHocE?si=CeOtv6ogtiHBFfiR">
+                        <img src="./public/image/mayadevi.jpg" alt="" class="rounded-2xl">
+                    </a>
+                </div>
+                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                    <p class="absolute text-white p-[10px] text-xl">Chitwan</p>
+                    <a href="https://youtu.be/GGHTF9QSpVg?si=Q3WzZsd-ENYKdN9m">
+                        <img src="./public/image/rhino.jpg" alt="" class="rounded-2xl">
+                    </a>
+                </div>
+                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                    <p class="absolute text-white p-[10px] text-xl">God shiv</p>
+                    <a href="https://youtu.be/lDfFoYZAAjg?si=2Lcze7ZFAuYlPP_7">
+                        <img src="./public/image/god shiv.jpg" alt="" class="rounded-2xl">
+                    </a>
+                </div>
+                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                    <p class="absolute text-white p-[10px] text-xl">Shyambhunath</p>
+                    <a href="https://youtu.be/SxrckxfNHrk?si=TDTEibhAxuK42daw">
+                        <img src="./public/image/shyambhu.jpg" alt="" class="rounded-2xl">
+                    </a>
+                </div>
             </div>
-            <div class="h-[40vh] hover:scale-[0.95] duration-500 hover:opacity-40">
-                <a href="https://youtu.be/lkluFMRHocE?si=CeOtv6ogtiHBFfiR">
-                    <img src="./public/image/mayadevi.jpg" alt="" class="rounded-2xl">
-                </a>
-            </div>
-            <div class="h-[40vh] hover:scale-[0.95] duration-500 hover:opacity-40">
-                <p></p>
-                <a href="https://youtu.be/GGHTF9QSpVg?si=Q3WzZsd-ENYKdN9m">
-                    <img src="./public/image/rhino.jpg" alt="" class="rounded-2xl">
-                </a>
-            </div>
-            <div class="h-[40vh] hover:scale-[0.95] duration-500 hover:opacity-40">
-                <p></p>
-                <a href="https://youtu.be/lDfFoYZAAjg?si=2Lcze7ZFAuYlPP_7">
-                    <img src="./public/image/god shiv.jpg" alt="" class="rounded-2xl">
-                </a>
-            </div>
-            <div class="h-[40vh] hover:scale-[0.95] duration-500 hover:opacity-40">
-                <p></p>
-                <a href="https://youtu.be/SxrckxfNHrk?si=TDTEibhAxuK42daw">
-                    <img src="./public/image/shyambhu.jpg" alt="" class="rounded-2xl">
-                </a>
-            </div>
-        </div>
+         </div>
+        
     </div>
 </body>
-</body>
+
 <script src="script.js"></script>
 <script src="gsap.js"></script>
 </html>
