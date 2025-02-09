@@ -17,14 +17,14 @@
 <body>
     <div class="">
         <div class="flex flex-row items-center justify-between bg-black h-[12vh] px-[3vw] w-[100%]">
-            <img src="./public/image/nav-logo.png" alt="nav-logo" class="sm:h-[5vw] h-[10vw] sm:w-[5vw] w-[10vw] rounded-full">
+            <img src="./public/image/download.jpg" alt="nav-logo" class="sm:h-[5vw] h-[10vw] sm:w-[5vw] w-[10vw] rounded-full">
             <div class="flex flex-row text-white gap-[3vw]">
                 <a href="home.html" class="underline underline-offset-8 hover:text-[#c7762a] font-bold">HOME</a>
                 <a href="contact.html" class="underline underline-offset-8 hover:text-[#c7762a] font-bold">CONTACT US</a>
                 <a href="about.html" class="underline underline-offset-8 hover:text-[#c7762a] font-bold">ABOUT US</a>
             </div>
         </div>
-        <div class="bgHero bg-[url(/public/image/hero-bg.jpg)] sm:h-[130vh] h-[100vh] w-[100%] bg-cover place-items-center relative z-10 ">
+        <div class="bgHero bg-[url(/public/image/hero-bg.jpg)] sm:h-[130vh] h-[90vh] w-[100%] bg-cover place-items-center relative z-10 ">
             <p class="sm:pt-[40vh] md:pt-[50vh] pvh] text-white text-2xl">TRAVEL AGENCY</p>
             <p class="italic text-white text-5xl">wanderust</p>
             <p class="py-[30px] text-white text-2xl sm:text-6xl font-bold">Wonderful tours </p>
@@ -176,41 +176,120 @@
             </div>
         </div>
         <!-- slide section -->
-         <div class="w-full flex md:flex-row flex-col gap-20">
-            <div class="flex flex-row gap-[15px] py-[4vh] px-[10vw] owl-carousel owl-theme">
-                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+        <div class=" flex  flex-col gap-20 px-[10vw]">
+            <div class="flex md:flex-row flex-col w-full gap-[15px] py-[4vh] owl-carousel owl-theme">
+                <div class="w-[100%] hover:scale-[0.95] duration-500 hover:opacity-40 item">
                     <p class="absolute text-white p-[10px] text-xl">Mount-everest</p>
                     <a href="https://youtu.be/5hdyi8svumQ?si=d0V59E16B3lCnee-">
-                        <img src="./public/image/jungle.jpg" alt="" class="rounded-2xl">
+                        <img src="./public/image/jungle.jpg" alt="" class="rounded-2xl sm:h-[60vh] h-[30vh]">
                     </a>
                 </div>
-                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                <div class="w-[100%] hover:scale-[0.95] duration-500 hover:opacity-40 item">
                     <p class="absolute text-white p-[10px] text-xl">Mayadevi Temple</p>
                     <a href="https://youtu.be/lkluFMRHocE?si=CeOtv6ogtiHBFfiR">
-                        <img src="./public/image/mayadevi.jpg" alt="" class="rounded-2xl">
+                        <img src="./public/image/mayadevi.jpg" alt="" class="rounded-2xl sm:h-[60vh] h-[30vh]">
                     </a>
                 </div>
-                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                <div class="w-[100%] hover:scale-[0.95] duration-500 hover:opacity-40 item">
                     <p class="absolute text-white p-[10px] text-xl">Chitwan</p>
                     <a href="https://youtu.be/GGHTF9QSpVg?si=Q3WzZsd-ENYKdN9m">
-                        <img src="./public/image/rhino.jpg" alt="" class="rounded-2xl">
+                        <img src="./public/image/rhino.jpg" alt="" class="rounded-2xl sm:h-[60vh] h-[30vh]">
                     </a>
                 </div>
-                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                <div class="w-[100%] hover:scale-[0.95] duration-500 hover:opacity-40 item">
                     <p class="absolute text-white p-[10px] text-xl">God shiv</p>
                     <a href="https://youtu.be/lDfFoYZAAjg?si=2Lcze7ZFAuYlPP_7">
-                        <img src="./public/image/god shiv.jpg" alt="" class="rounded-2xl">
+                        <img src="./public/image/god shiv.jpg" alt="" class="rounded-2xl sm:h-[60vh] h-[30vh]">
                     </a>
                 </div>
-                <div class="h-[60vh] hover:scale-[0.95] duration-500 hover:opacity-40 item">
+                <div class="w-[100%] hover:scale-[0.95] duration-500 hover:opacity-40 item">
                     <p class="absolute text-white p-[10px] text-xl">Shyambhunath</p>
                     <a href="https://youtu.be/SxrckxfNHrk?si=TDTEibhAxuK42daw">
-                        <img src="./public/image/shyambhu.jpg" alt="" class="rounded-2xl">
+                        <img src="./public/image/shyambhu.jpg" alt="" class="rounded-2xl sm:h-[60vh] h-[30vh]">
                     </a>
                 </div>
             </div>
-         </div>
-        
+        </div>
+        <div class="cta-section">
+            <div class="bg-[#333231] py-[6vh] sm:px-[10vw] px-[2vw]">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2 class="mb-3 text-white sm:text-4xl text-xl">Lets you Explore the Best. Contact Us Now</h2>
+                        <p class="mb-8 lead text-white text-white-opacity sm:text-2xl">gautam Buddha int travel agency.com.np</p>
+                        <p><a href="booking.html" class="btn btn-outline-white text-white text-md border-2 rounded-3xl px-[30px] py-[12px] hover:bg-white hover:text-black">Get in touch</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer">
+            <div class="px-[10vw] pt-[6vh]">
+                <div class="flex flex-col sm:flex-row justify-between items-left">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="">
+                            <h3 class="py-[10px] font-bold">About Tour</h3>
+                            <p>Let enjoy your trip to get a love with nature and <br> People of Nepal.</p>
+                        </div>
+                        <div class="widget">
+                            <div class="d-flex py-[30px]">
+                                <a href="https://x.com/home" class="btn btn-outline-light btn-social border-solid border-2 border-[#18157E] rounded-full text-[#18157E] text-center p-1 mx-0.5">
+                                  <i class="fab fa-twitter w-[17px] h-[19px]"></i>
+                                </a>
+                                <a href="" class="btn btn-outline-light btn-social border-solid border-2 border-[#18157E] rounded-full text-center p-1 mx-0.5 text-[#18157E]">
+                                  <i class="fab fa-facebook-f w-[17px] h-[22px]"></i>
+                                </a> 
+                                <a href="https://www.youtube.com/@jogindarcode" class="btn btn-outline-light btn-social border-solid border-2 border-[#18157E] rounded-full text-[#18157E] text-center p-1 mx-0.5">
+                                  <i class="fab fa-youtube w-[16px] h-[19px]"></i>
+                                </a>
+                                <a href="" class="btn btn-outline-light btn-social border-solid border-2 border-[#18157E] rounded-full text-center text-[#18157E] p-1 mx-0.5">
+                                  <i class="fab fa-linkedin-in w-[21px] h-[20px]"></i>
+                                </a>
+                              </div>     
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 pl-lg-5 ">
+                        <div class="widget">
+                            <h3 class="py-[10px] font-bold">Pages</h3>
+                            <ul class="links list-unstyled flex flex-col gap-[10px]">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="widget">
+                            <h3 class="py-[10px] font-bold">Resources</h3>
+                            <ul class="links list-unstyled flex flex-col gap-[10px]">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="widget">
+                            <h3 class="py-[10px] font-bold">Contact</h3>
+                            <ul class="list-unstyled flex flex-col gap-[10px]">
+                                <li><i class="fa-solid fa-envelope text-[#18157E] px-[17px]"></i><a href="#">jogindary426@gmail.com</a></li>
+                                <li><i class="fa fa-phone text-[#18157E] px-[15px]" aria-hidden="true"></i><a href="#">+977 9813520987</a></li>
+                                <li><i class="fa-solid fa-location-dot text-[#18157E] px-[18px]"></i><a href="#">siddharthanagar-8 Bhairahawa . Lumbini, Nepal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="inner dark py-[8vh]">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-8 mb-5 mb-md-0 mx-auto">
+                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script><p>All Rights Reserved. &mdash; Designed with love by Jogindar Yadav</p> 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
